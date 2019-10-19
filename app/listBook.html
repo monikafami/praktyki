@@ -6,13 +6,55 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/listBook.css">
     <link rel="stylesheet" href="./css/style.css">
+
     <title>Document</title>
 </head>
 
 <body>
-    <h1>Próba</h1>
+    <div class="container-fluid header">
+        <div class="row">
+            <ul class="nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="./addBook.html">Dodaj
+                        Książkę</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="./listBook.html">Lista
+                        Książek</a>
+                </li>
+            </ul>
+        </div>
+    </div>
 
+    <main>
+        <div class="container">
+            <div class="row">
+                <div class="listBooks col-sm-6 col-md-4">
+                    <div class="card">
+                        <h5 class="card-header">
+                            <p>Tytuł <span> id </span></p>
+                        </h5>
+                        <div class="card-body">
+                            <h5 class="card-title" id="titleCard">Tytuł</h5>
+                            <h5 class="card-title" id="authorCard">Autor</h5>
+                            <p class="card-text">Tutaj będzie opis książki</p>
+                            <button type="button" class="btn btn-primary" onclick="">Usuń</button>
+                            <button type="button" class="btn btn-primary" onclick="">Edytuj</button>
+
+                        </div>
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
 
 
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>

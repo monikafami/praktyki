@@ -1,0 +1,60 @@
+.addBookMain {
+    background-color: lightgray;
+    width: 500px;
+
+    h2 {
+        color: #242323;
+        text-align: center;
+    }
+
+    .addBook {
+        padding: 5px;
+
+
+        .titleBook {
+
+            #title {
+
+                width: 100%;
+                border-bottom: 3px solid #007bff;
+                background-color: whitesmoke;
+
+            }
+
+            p {
+                text-align: right;
+            }
+        }
+
+        .authorBook {
+            #author {
+                width: 100%;
+                border-bottom: 3px solid #007bff;
+                background-color: whitesmoke;
+            }
+
+            p {
+                text-align: right;
+            }
+        }
+
+        .descriptionBook {
+            #description {
+                width: 100%;
+                border-bottom: 3px solid #007bff;
+                background-color: whitesmoke;
+            }
+
+            p {
+                text-align: right;
+            }
+        }
+
+        button {
+            background-color: #242323;
+            color: #007bff;
+            width: 100%;
+
+        }
+    }
+}
